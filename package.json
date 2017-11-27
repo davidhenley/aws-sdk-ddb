@@ -1,0 +1,15 @@
+{
+  "name": "aws-sdk-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "node ./src/ddb_createtable.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.156.0"
+  }
+}
