@@ -19,3 +19,11 @@ Modify `src/config/aws-keys.json` using example file.
 **List Tables**
 
 `npm run list`
+
+**Describe Table**
+
+`npm run describe`
+
+**Delete Table**
+
+`npm run delete`
