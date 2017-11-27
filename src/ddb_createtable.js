@@ -33,7 +33,7 @@ const params = {
   TableName: "CUSTOMER_LIST3"
 };
 
-ddb.createTable(params, function(err, data) {
+ddb.createTable(params, (err, data) => {
   if (err) {
     console.log('Error', err.message);
   } else {

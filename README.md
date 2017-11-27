@@ -15,3 +15,7 @@ Modify `src/config/aws-keys.json` using example file.
 **Create A Table**
 
 `npm run create`
+
+**List Tables**
+
+`npm run list`
