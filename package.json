@@ -8,8 +8,9 @@
     "list": "node src/ddb_listtables.js",
     "describe": "node src/ddb_describetable.js",
     "delete": "node src/ddb_deletetable.js",
-    "put": "node src/ddb_putitem.js",
-    "get": "node src/ddb_getitem.js"
+    "put_one": "node src/ddb_putitem.js",
+    "get_one": "node src/ddb_getitem.js",
+    "delete_one": "node src/ddb_deleteitem.js"
   },
   "keywords": [],
   "author": "",

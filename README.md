@@ -32,8 +32,12 @@ Modify `src/config/aws-keys.json` using example file.
 
 **Put Item**
 
-`npm run put`
+`npm run put_one`
 
 **Get Item**
 
-`npm run get`
+`npm run get_one`
+
+**Delete Item**
+
+`npm run delete_one`
