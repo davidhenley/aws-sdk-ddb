@@ -8,8 +8,7 @@ const ddb = new AWS.DynamoDB({ apiVersion: '2012-10-08' });
 const params = {
   TableName: 'CUSTOMER_LIST',
   Key: {
-    'CUSTOMER_ID': { N: '001' },
-    'CUSTOMER_NAME': { S: 'Richard Roe'}
+    'CUSTOMER_ID': { N: '001' }
   },
   ProjectionExpression: 'CUSTOMER_NAME'
 }
