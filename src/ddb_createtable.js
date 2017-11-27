@@ -30,7 +30,7 @@ const params = {
     ReadCapacityUnits: 1,
     WriteCapacityUnits: 1
   },
-  TableName: "CUSTOMER_LIST3"
+  TableName: "CUSTOMER_LIST"
 };
 
 ddb.createTable(params, (err, data) => {

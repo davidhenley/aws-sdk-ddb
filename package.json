@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "create": "node src/ddb_createtable.js",
-    "list": "node src/ddb_listtables.js"
+    "list": "node src/ddb_listtables.js",
+    "describe": "node src/ddb_describetable.js",
+    "delete": "node src/ddb_deletetable.js"
   },
   "keywords": [],
   "author": "",
