@@ -4,6 +4,8 @@ AWS SDK with DynamoDB
 Usage
 -----
 
+Run the following in sequence to ensure database calls work.
+
 **Install**
 
 `npm install`
@@ -27,3 +29,11 @@ Modify `src/config/aws-keys.json` using example file.
 **Delete Table**
 
 `npm run delete`
+
+**Put Item**
+
+`npm run put`
+
+**Get Item**
+
+`npm run get`
